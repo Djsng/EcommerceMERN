@@ -1,0 +1,167 @@
+/* General container for Customer Support */
+.customer-support-container {
+  background-color: #f9f9f9;
+  padding: 40px 30px;
+  max-width: 1200px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title Section */
+.customer-support-container h2 {
+  font-size: 32px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Success message */
+.customer-support-container .success-message {
+  background-color: #e0ffe0;
+  padding: 15px;
+  margin-bottom: 20px;
+  border-radius: 6px;
+  color: #388e3c;
+  font-size: 16px;
+  border: 1px solid #4caf50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customer-support-container .success-message p {
+  margin: 0;
+}
+
+/* Support Sections */
+.customer-support-container .support-sections {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.customer-support-container .support-section {
+  flex: 1;
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.customer-support-container .support-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.customer-support-container .support-section h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.customer-support-container .support-section p {
+  font-size: 16px;
+  color: #666;
+  line-height: 1.6;
+}
+
+.customer-support-container .support-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.customer-support-container .support-section ul li {
+  font-size: 16px;
+  color: #444;
+  margin-bottom: 10px;
+}
+
+.customer-support-container .support-section ul li a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.customer-support-container .support-section ul li a:hover {
+  text-decoration: underline;
+}
+
+/* FAQ Section */
+.customer-support-container .faq-section {
+  background-color: #f3f3f3;
+  border-left: 5px solid #007bff;
+}
+
+/* Live Chat Section */
+.customer-support-container .chat-section {
+  background-color: #f7f9fc;
+  border-left: 5px solid #28a745;
+}
+
+/* Ticket Section */
+.customer-support-container .ticket-section {
+  background-color: #f9f9f9;
+  border-left: 5px solid #ffc107;
+}
+
+/* Contact Section */
+.customer-support-container .contact-section {
+  background-color: #f0f4f8;
+  border-left: 5px solid #dc3545;
+}
+
+/* Forms and Inputs */
+.customer-support-container input[type="text"],
+.customer-support-container input[type="email"],
+.customer-support-container textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0 20px 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+.customer-support-container input[type="text"]:focus,
+.customer-support-container input[type="email"]:focus,
+.customer-support-container textarea:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.customer-support-container textarea {
+  height: 120px;
+}
+
+.customer-support-container button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 25px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.customer-support-container button:hover {
+  background-color: #0056b3;
+}
+
+.customer-support-container button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .customer-support-container .support-sections {
+      flex-direction: column;
+  }
+}

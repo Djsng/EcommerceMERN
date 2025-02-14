@@ -1,0 +1,85 @@
+/* Basic Reset */
+.home-container body, .home-container h1, .home-container p, .home-container a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-container body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-container .hero-section {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.home-container .hero-title {
+    font-size: 3rem;
+    color: #212529;
+    margin-bottom: 15px;
+    font-weight: 700;
+}
+
+.home-container .hero-subtitle {
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+.home-container .navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #dee2e6;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.home-container .navbar-links {
+    display: flex;
+    gap: 20px;
+}
+
+.home-container .nav-link {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-left: 10px; /* Added margin to create space between the buttons */
+    transition: color 0.3s ease;
+}
+
+.home-container .nav-link:hover {
+    color: #0056b3;
+}
+
+.home-container .footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.home-container .footer p {
+    margin-bottom: 10px;
+}
+
+.home-container .footer a {
+    color: #17a2b8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.home-container .footer a:hover {
+    text-decoration: underline;
+}

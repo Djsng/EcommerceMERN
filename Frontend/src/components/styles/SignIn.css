@@ -1,0 +1,96 @@
+/* Basic Reset */
+body, h2, input, button, a {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.signin-body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #333;
+}
+
+.signin-container {
+    width: 100%;
+    max-width: 400px;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.signin-h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.signin-form-group {
+    margin-bottom: 15px;
+}
+
+.signin-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.signin-input:focus {
+    border-color: #007bff;
+}
+
+.signin-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.signin-button:hover {
+    background-color: #0056b3;
+}
+
+.signin-error-message {
+    color: #d9534f;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.signin-go-back-btn {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: color 0.2s;
+}
+
+.signin-go-back-btn:hover {
+    color: #0056b3;
+}
+
+/* Forgot Password button */
+.signin-button.forgot-password {
+    margin-top: 10px;
+    background-color: #6c757d;
+}
+
+.signin-button.forgot-password:hover {
+    background-color: #5a6268;
+}

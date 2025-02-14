@@ -1,0 +1,34 @@
+.delivery-queue-container {
+    padding: 20px;
+    text-align: center;
+}
+
+.delivery-queue-table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+}
+
+.delivery-queue-table th, .delivery-queue-table td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.delivery-queue-table th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.delivery-queue-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.delivery-queue-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.delivery-queue-table td {
+    font-size: 14px;
+}
